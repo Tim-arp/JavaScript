@@ -53,3 +53,31 @@ console.log(typeof ScoreInNumber)
 console.log(ScoreInNumber)
 //It converts boolean into number but the value of boolean will be converted as 1
 */
+
+/*
+let b = 2;
+let c = 3;
+console.log(b+c);
+console.log(b-c);
+console.log(b*c);
+console.log(b/c);
+console.log("Exponentiation : " ,b**c); 
+// exponentiation give power 
+
+console.log("Modulus is : ",b%c);
+//  modulus gives remainder
+
+let b1 = 2;
+console.log(b1++); 
+console.log(b1)
+// at first it will print the same value of b and then it will increment.
+console.log(b1++);
+console.log(b1)
+
+console.log(++b1);
+// it will print the incremented value 
+
+
+// (== is use as equal to operator) 
+// (=== is used to compare datatype and value )
+*/
