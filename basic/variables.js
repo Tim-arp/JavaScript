@@ -5,6 +5,7 @@ location = "Nepal"
 let state
 // if we dont give any value then its default value is undefined
 
+
 /* id = 233
 console.log("id");
 value of id doesnot change because it is constant(i.e. 15745) 
