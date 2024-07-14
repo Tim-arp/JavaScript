@@ -1,5 +1,5 @@
 // Strings can be denoted by both "" or ''
-
+// strings are immutable (string lai kei operation garera change garriyo bhani real string pani change hunxa)
 // const name = "Timarp"
 // const age = 21
 // console.log("My name is",  name + "and my age is", age); 
