@@ -18,6 +18,7 @@
 
 // const newarray = myarray.join(); newarray ma myarray ko value janxa tara string datatype bhayera
 // console.log(newarray)
+// console.log(myarray.toString()); given array lai string ma change handinxa
 
 
 // const newarr1 = myarray.slice(1,4) slice le given interval ma bhako array ko element lai print garxa except last element 
