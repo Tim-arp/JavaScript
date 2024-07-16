@@ -28,11 +28,6 @@ let details = {
     
   */  
 
-    
-    
- 
-
-
 
 // symbol in object 
 
