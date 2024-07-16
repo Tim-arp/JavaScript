@@ -11,7 +11,7 @@ let details = {
 
 /*
 
-            Freezing specific value in object
+            FREEZING SPECIFIC VALUE IN OBJECT
 
     details.name = "Timarp"
     details.age = 18
@@ -28,8 +28,7 @@ let details = {
     
   */  
 
-
-// symbol in object 
+//             SYMBOL IN OBJECT 
 
 // let sym = Symbol("Mykey") this is how we create symbol
 
@@ -43,7 +42,7 @@ let details = {
 
 
 /*
-                Function in object
+            FUNCTION IN OBJECT
 
 details.greeting = function(){
     console.log("Hello User");
@@ -59,6 +58,7 @@ console.log(details.greetingagain());
 
 /*
         WE CAN CREATE OBJECT IN THIS WAY
+
 const user = {}
 user.name = "Pramit"
 user.id = "45fd",
@@ -87,6 +87,7 @@ console.log(app.fullname.userfirstname.FirstName);
 
 /*
     COMBINING TWO OBJECTS
+    
 const num1 = {
     1 : "a",
     2 : "b",
@@ -103,7 +104,7 @@ console.log(num4);
 */
 
 /*
-    objects as an array
+    OBJECTS AS AN ARRAY
 const user = [
     {
         id : "345ht",
