@@ -134,3 +134,19 @@ console.log(Object.entries(details)); sab key and value lai array banaidinxa
 */
 
 // console.log(details.hasOwnProperty('name'));  given Object ma property xa kinai bhanera check garna milxa
+
+
+//                                  DESTRUCTING OF OBJECT
+
+const course = {
+    CourseName : "JS series",
+    Price : "free",
+    CourseInstructor : "Noone"
+}
+console.log(course);
+
+// const {CourseInstructor} = course  course object bata {} ma bhako keys ko value dinxa
+// console.log(CourseInstructor);
+
+// const {CourseInstructor : Instructor} = course; its kinda like renaming 
+// console.log(Instructor);
