@@ -29,7 +29,7 @@
 // const fd = [1,2,3,4,5,6,7]
 // fd.splice(1,4)
 // console.log(fd);
-
+// Splice le original array lai change handinxa slice le handaina
 
 // const marvel_heros = ["Spiderman", "Ironman", "Thor"]
 // const dc_heros = ["Batman", "Flash", "Superman"]
