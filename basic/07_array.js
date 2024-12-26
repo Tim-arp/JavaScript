@@ -1,5 +1,5 @@
 // Array ma counting 0 bata suru hunxa
-// Array are mutable(kei operation garera change garriyo bhani real array change hunna)
+// Array are mutable(kei operation garera change garriyo bhani real array change hunxa)
 // const arr = [23,12,54,21]
 // console.log(arr);
 // const arr1 = new Array(12,67,23,2) we can also define array in this way
