@@ -5,7 +5,7 @@
 // const arr1 = new Array(12,67,23,2) we can also define array in this way
 // console.log(arr1[2]); array ko position 2 ma kun element xa print garxa
 
-// const myarray = [23,67,26,89,233]
+const myarray = [23,67,26,89,233]
 // myarray.push(86) array ko last ma 86 add hunxa
 // console.log(myarray); 
 // console.log(myarray.push(90)); yesari use garda latest array ko index dinxa
@@ -16,8 +16,10 @@
 // console.log(myarray.indexOf(67)); element ko positon dinxa
 
 
-// const newarray = myarray.join(); newarray ma myarray ko value janxa tara string datatype bhayera
+// const newarray = myarray.join(" and "); comma lai and le seperate gardinxa aani given array string ma change hunxa
 // console.log(newarray)
+// console.log(typeof newarray);
+
 // console.log(myarray.toString()); given array lai string ma change handinxa
 
 
