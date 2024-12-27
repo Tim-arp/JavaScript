@@ -26,7 +26,7 @@ const myarray = [23,67,26,89,233]
 // const newarr1 = myarray.slice(1,4) slice le given interval ma bhako array ko element lai print garxa except last element 
 // console.log(newarr1); 
 
-// const newarr2 = myarray.splice(1,4) splice ma given interval ko element haru remove hunxa array bata
+// const newarr2 = myarray.splice(1,4) splice ma given interval ko element haru remove hunxa array bata aani main array change hunxa
 // console.log(newarr2);
 // const fd = [1,2,3,4,5,6,7]
 // fd.splice(1,4)
