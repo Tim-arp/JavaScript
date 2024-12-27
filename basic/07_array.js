@@ -23,7 +23,7 @@ const myarray = [23,67,26,89,233]
 // console.log(myarray.toString()); given array lai string ma change handinxa
 
 
-// const newarr1 = myarray.slice(1,4) slice le given interval ma bhako array ko element lai print garxa except last element 
+// const newarr1 = myarray.slice(1,4) slice le given interval ma bhako array ko element lai print garxa except last element aani original array as it is hunxa
 // console.log(newarr1); 
 
 // const newarr2 = myarray.splice(1,4) splice ma given interval ko element haru remove hunxa array bata aani main array change hunxa
