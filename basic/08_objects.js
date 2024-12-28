@@ -7,6 +7,7 @@ let details = {
 }
 // console.log(details.name);
 // console.log(details.email);
+// console.log(details["email"]);
 // console.log(details["full name"]);  keys yedi "" garera deko xa bhani yo method use garna parxa
 
 /*
@@ -18,7 +19,7 @@ let details = {
     console.log(details.name);
     // Object.freeze(details,'name') 
     // Object.freeze(details,'age')  this property helps to freeze specific object's value 
-
+    Object.freeze(details) this property freezes all the keys and values in a object
     details.name = "hehe"
     console.log(details.name);
 
@@ -30,16 +31,21 @@ let details = {
 
 //             SYMBOL IN OBJECT 
 
-// let sym = Symbol("Mykey") this is how we create symbol
+// const mykey = Symbol("Key1") This is how we create symbol
 
-// let info = {
+// let detail = {
 //     name : "Pramit",
 //     age : 21,
-//     // [sym] : "hello", this is how declare symbol inside object 
+//     address : "Magarmudha",
+//     "Full Name" : "Pramit Regmi",
+//     [mykey] : "key1"   symbol declaration inside object
 // }
-
-// // console.log(info[sym]); this is how we print symbol 
-
+                                                                                                    // Output
+// console.log(detail.name)                                                                            Pramit
+// console.log(detail["Full Name"])                                                                    Pramit Regmi
+// console.log(detail[mykey])  prints the value in [mykey]                                             key1
+// console.log(typeof (detail[mykey])) while doing this it prints datatype as string                   string
+// console.log(typeof mykey) while doing this it prints datatype as symbol                             symbol
 
 /*
             FUNCTION IN OBJECT
@@ -51,7 +57,7 @@ console.log(details.greeting());
 
 
 details.greetingagain = function(){
-    console.log(`Hello User ${this.name}`);
+    console.log(`Hello User ${this.name}`); same object ko value lai refer garna xa bhani this. use garni 
 }
 console.log(details.greetingagain());
 */
