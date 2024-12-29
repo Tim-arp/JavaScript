@@ -107,6 +107,18 @@ console.log(num3);
 
 const num4 = {...num1 , ...num2}
 console.log(num4);
+
+
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// Expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget === target);
+// Expected output: true
 */
 
 /*
@@ -151,7 +163,7 @@ const course = {
 }
 console.log(course);
 
-// const {CourseInstructor} = course  course object bata {} ma bhako keys ko value dinxa
+// const {CourseInstructor} = course;    object bata courseinstructor ko value yesari ni extract garna milxa which is kinda good and clean code sadhai course.courseinstructor garna parena
 // console.log(CourseInstructor);
 
 // const {CourseInstructor : Instructor} = course; its kinda like renaming 
