@@ -31,10 +31,34 @@
 //     console.log(i);
 // }
 
-for (let i = 0; i<=20; i++) {
-    if (i==10) {
-        console.log("10 detected");
-        continue
-    }
-    console.log(i);
-}
+// for (let i = 0; i<=20; i++) {
+//     if (i==10) {
+//         console.log("10 detected");
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+// WHILE
+// let marks = 0;
+// while (marks<=10) {
+//     console.log(marks);
+//     marks++
+// }
+
+// let myArray = ["Ironman","Spiderman","Batman"]
+// let arr = 0
+// while (arr<myArray.length) {
+//     console.log(`${arr} value of array is ${myArray[arr]}`);
+//     arr++
+// }
+
+
+// DO WHILE 
+// let score = 1
+// do {
+//     console.log(`Score is ${score}`);
+//     score++
+// } while (score <= 10);
