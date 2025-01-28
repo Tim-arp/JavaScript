@@ -1,2 +1,3 @@
 # JavaScript
-Nothing just learning javascript from scratch 
+Nothing just learning javascript from
+
