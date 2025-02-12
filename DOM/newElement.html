@@ -6,24 +6,31 @@
     <title>NewElement</title>
 </head>
 <body style="background-color: black; color: white;">
-    <div class="parent">
+    <div class="parent"> 
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
         <div class="day">Thursday</div>
+        <div class="day">Friday</div>
     </div>
 </body>
 <script>
-    const Big =  document.querySelector('.parent')
-    console.log(Big);
-    console.log(Big.children);
-    console.log(Big.children[1]);
-    console.log(Big.children[1].innerText);
-
-    for(i=0;i<Big.children.length;i++){
-        console.log(Big.children[i].innerText);
-    }
-
-    
+   const parents =  document.querySelector('.parent')
+   console.log(parents);
+   console.log(parents.children);
+   console.log(parents.children[2]);
+   console.log(parents.children[2].innerHTML);
+   for (let i = 0; i < parents.children.length; i++) {
+    console.log(parents.children[i].innerHTML);
+   }
+   parents.children[1].style.color = "red";
+   console.log(parents.firstElementChild);
+   console.log(parents.lastElementChild);
+   
+   const days= document.querySelectorAll('.day')
+   for(let i=0;i<days.length;i++){
+    if(days[i].textContent==="Thursday")
+    console.log(days[i]);
+   }
 </script>
 </html>
