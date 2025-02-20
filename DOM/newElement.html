@@ -16,21 +16,52 @@
 </body>
 <script>
    const parents =  document.querySelector('.parent')
-   console.log(parents);
-   console.log(parents.children);
-   console.log(parents.children[2]);
-   console.log(parents.children[2].innerHTML);
-   for (let i = 0; i < parents.children.length; i++) {
-    console.log(parents.children[i].innerHTML);
-   }
-   parents.children[1].style.color = "red";
-   console.log(parents.firstElementChild);
-   console.log(parents.lastElementChild);
+//    console.log(parents);
+//    console.log(parents.children);
+//    console.log(parents.children[2]);
+//    console.log(parents.children[2].innerHTML);
+//    for (let i = 0; i < parents.children.length; i++) {
+//     console.log(parents.children[i].innerHTML);
+//    }
+//    parents.children[1].style.color = "red";
+//    console.log(parents.firstElementChild);
+//    console.log(parents.lastElementChild);
    
-   const days= document.querySelectorAll('.day')
-   for(let i=0;i<days.length;i++){
-    if(days[i].textContent==="Thursday")
-    console.log(days[i]);
-   }
+//    const days= document.querySelectorAll('.day')
+//    for(let i=0;i<days.length;i++){
+//     if(days[i].textContent==="Thursday")
+//     console.log(days[i]);
+//    }
+
+
+// const dayOne = document.querySelectorAll('.day')
+// const daysss = dayOne[2]
+// console.log(daysss.textContent);
+
+// const dayOnee = document.querySelector('.day')
+// console.log(dayOnee);
+// console.log(dayOnee.parentElement)
+// console.log(dayOnee.nextElementSibling)
+
+// console.log(parents.childNodes);
+
+
+const divs = document.createElement('div')
+divs.className = "hello"
+divs.id = "wassup"
+divs.setAttribute("title","generated title")
+divs.style.backgroundColor = "red"
+
+
+const text = document.createTextNode ("Hello Timarp")
+divs.appendChild(text)
+document.body.appendChild(divs)
+
+// divs.textContent = "Hello" this textcontent overwrites 
+// document.body.appendChild(divs)
+// console.log(divs);
+
+
+
 </script>
 </html>
