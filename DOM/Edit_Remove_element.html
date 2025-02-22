@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and Remove Element</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addlang(langname){
+        const li =document.createElement('li');
+        li.textContent = `${langname}`
+        document.querySelector('ul').append(li);
+    }
+    addlang("Python")
+    addlang("TypeScript")
+
+
+    function insertBetween(newLang) {
+        const li = document.createElement('li');
+        li.textContent = newLang;
+
+        const ul = document.querySelector('ul');
+        const secondItem = ul.children[1]; // Get the second <li> (which is "Python")
+
+        ul.insertBefore(li, secondItem); // Insert before "Python"  
+        // Uses .insertBefore(newElement, referenceElement) to insert "C++" before "Python".
+    }
+
+    insertBetween("C++");
+
+    function Optilang(lang){
+        const li = document.createElement('li')
+        // li.appendChild(document.createTextNode(lang)) Add text inside <li>
+        // or 
+        li.textContent = lang
+        document.querySelector('.language').appendChild(li)
+    }
+    Optilang("Ruby")
+</script>
+</html>
