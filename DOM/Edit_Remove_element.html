@@ -41,5 +41,26 @@
         document.querySelector('.language').appendChild(li)
     }
     Optilang("Ruby")
+
+
+    // EDIT
+
+    const lang = document.querySelector("li:nth-child(2)")
+    lang.innerHTML = "Assembly"
+
+    const secondlang =  document.createElement('li')
+    // secondlang.textContent = "Mojo"
+    // OR 
+    // secondlang.appendChild(document.createTextNode("mojo"))
+    lang.replaceWith(secondlang)
+
+    const firstlang = document.querySelector("li:first-child")
+    console.log(firstlang);
+    firstlang.outerHTML = "<li>Machine Language</li>"
+
+
+    // REMOVE 
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
 </script>
 </html>
