@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Hello I am a box</div>
+    </div>
+    <button id="btn">Change Content</button>
+</body>
+<script>
+    // let button = document.querySelector("#btn")
+    // button.addEventListener("dblclick",()=>{
+    //     // alert("I was clicked")
+    //     document.querySelector(".box").innerHTML = "<h1>Yaaahh Button was clicked</h1>"
+    // })
+    let button = document.querySelector("#btn")
+    button.addEventListener("contextmenu",()=>{
+        alert("I was right clicked")
+        // document.querySelector(".box").innerHTML = "<h1>Yaaahh Button was clicked</h1>"
+    })
+
+    document.addEventListener("keydown",(e)=>{
+        console.log(e.key,e.keyCode);
+    // })
+</script>
+</html>
