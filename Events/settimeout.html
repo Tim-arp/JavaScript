@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let hey = function(){
+        console.log("Hello")
+    }
+    setTimeout(hey,4000)
+
+    let changetext = function(){
+        document.querySelector('h1').textContent = "Hi"
+    }
+    let changetextin = setTimeout(changetext,4000)
+
+
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearTimeout(changetextin);
+        // cleartimeout expects settimeout id not function or function reference
+        console.log("Stopped");
+    })
+</script>
+</html>
