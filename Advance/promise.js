@@ -66,7 +66,7 @@
 // // })
 
 
-// // prefer this method cause it is chaining and is easy to understand 
+// prefer this method cause it is chaining and is easy to understand 
 // promiseFour
 // .then((user)=>{
 //     console.log(user);
